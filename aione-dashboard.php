@@ -218,7 +218,7 @@ function aione_dashboard_widget_info() {
     $filter ='raw';
     echo '<table style="width:100%;"><tbody>';
     echo '<tr><td>Site Title : </td><td>'.get_bloginfo('name', $filter).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
-    echo '<tr class="alternate"><td>Tag555552line : </td><td>'.get_bloginfo('description', $filter).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
+    echo '<tr class="alternate"><td>Tagline : </td><td>'.get_bloginfo('description', $filter).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
     echo '<tr><td>Admin E-mail : </td><td>'.get_bloginfo('admin_email', $filter).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
     echo '<tr class="alternate"><td>Language : </td><td>'.get_bloginfo('language', $filter).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
     echo '<tr><td>Date Format : </td><td>'.date(get_option('date_format')).'</td><td><a class="website-info_link" href="'.get_bloginfo('url', $filter).'/wp-admin/options-general.php">Edit</a></td></tr>';
